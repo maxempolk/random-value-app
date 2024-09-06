@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+
+.container{
+    background-color: #F8F4FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.inner{
+    width: max-content;
+    height: max-content;
+    text-align: center;
+}
+
+.inner span{
+    font-size: 24px;
+}
+
+.inner h1{
+    font-size: 128px;
+}
